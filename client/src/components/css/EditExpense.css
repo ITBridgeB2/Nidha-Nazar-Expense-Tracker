@@ -1,0 +1,69 @@
+/* EditExpense.css */
+
+.edit-expense-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .edit-expense-container h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .edit-expense-container form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  .edit-expense-container form div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-expense-container form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .edit-expense-container form input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .edit-expense-container form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .edit-expense-container form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .edit-expense-container form button:hover {
+    background-color: #0056b3;
+  }
+  

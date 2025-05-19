@@ -1,0 +1,73 @@
+.expense-details-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  background-color: #e5e4ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  /* justify-content: center; Center vertically */
+}
+
+.expense-detail {
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-detail p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.back-button {
+  background-color: #1b1230;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  width: auto;
+  display: inline-block;
+  max-width: fit-content;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #3b2e4c;
+}
